@@ -1,1 +1,69 @@
+* {
+    font-family: Verdana Arial sans-serif;
+    background-color: white;
+}
 
+h1, h2, h3 {
+    font-family: Arial sans-serif;
+    text-decoration: underline;
+}
+
+table {
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    width:50%;
+}
+td {
+    border-width:1px;
+    border-style:solid;
+    border-color: black;
+    width:50%;
+}
+
+th::first-letter {
+    text-transform: capitalize;
+}
+
+.produit {
+    font-style: italic;
+    color: coral;
+    text-transform: uppercase;
+}
+
+.reference {
+    font-style: italic;
+    color: black;
+    background-color: #C0C0C0;
+}
+
+.general {
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+
+#div3 {
+    color: blue;
+    font-size: small;
+    background-color: #C0C0C0;
+}
+
+#div1 > h3 {
+    color: red;
+    text-transform: capitalize;
+}
+
+blockquote > p {
+    text-indent: 20px;
+}
+
+blockquote > p::first-letter {
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+ol {
+    list-style-type: circle;
+}
